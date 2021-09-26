@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hocam.Core.Api", "Hocam-Api\Hocam.Core.Api.csproj", "{D0D2CC33-A875-4D54-AECF-B327A37578E8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AF652EB8-9B77-4204-9448-27F318786884} = {AF652EB8-9B77-4204-9448-27F318786884}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hocam.Core.Service", "Hocam.Core.Service\Hocam.Core.Service.csproj", "{AF652EB8-9B77-4204-9448-27F318786884}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A5FDE7E1-BD60-430E-A757-672E8B995467} = {A5FDE7E1-BD60-430E-A757-672E8B995467}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hocam.Api.Data", "Hocam.Api.Data\Hocam.Api.Data.csproj", "{A5FDE7E1-BD60-430E-A757-672E8B995467}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0D2CC33-A875-4D54-AECF-B327A37578E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D2CC33-A875-4D54-AECF-B327A37578E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D2CC33-A875-4D54-AECF-B327A37578E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D2CC33-A875-4D54-AECF-B327A37578E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF652EB8-9B77-4204-9448-27F318786884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF652EB8-9B77-4204-9448-27F318786884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF652EB8-9B77-4204-9448-27F318786884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF652EB8-9B77-4204-9448-27F318786884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5FDE7E1-BD60-430E-A757-672E8B995467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5FDE7E1-BD60-430E-A757-672E8B995467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5FDE7E1-BD60-430E-A757-672E8B995467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5FDE7E1-BD60-430E-A757-672E8B995467}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB141BA2-9FB8-47DE-A95E-E027C8ABA604}
+	EndGlobalSection
+EndGlobal
